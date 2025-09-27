@@ -1,2 +1,14 @@
-02_Numpy/.virtual_documents/
-02_Numpy/.virtual_documents/
+# Ignore all VS Code virtual documents
+**/.virtual_documents/
+
+# Ignore all Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore temporary or backup files
+*.swp
+*.tmp
+*.bak
+
+# Ignore VS Code workspace settings
+.vscode/
+
