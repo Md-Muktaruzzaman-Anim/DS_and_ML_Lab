@@ -1,0 +1,11 @@
+-- SELECT CURRENT_DATE;
+-- SELECT CURRENT_TIME;
+-- SELECT CURRENT_TIMESTAMP;
+-- SELECT NOW();
+-- SELECT LOCALTIME;
+-- SELECT LOCALTIMESTAMP;
+
+-- ALTER TABLE sps_students add COLUMN date_joined DATETIME DEFAULT (now());
+INSERT INTO sps_students (id, age, date_joined)
+VALUES (23, 30, now());
+SELECT * FROM sps_students;
