@@ -1,0 +1,6 @@
+*.pkl
+*.pyc
+__pycache__/
+input.csv
+output.csv
+input (Copy).csv
