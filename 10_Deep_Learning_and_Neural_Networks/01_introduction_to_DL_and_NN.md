@@ -1,9 +1,3 @@
-import panel as pn
-
-pn.extension()
-
-# Your Markdown content
-md_text = """
 # Introduction to Deep Learning and Neural Networks
 
 ## Inspiration from Nature
@@ -69,6 +63,7 @@ Because they can learn patterns, even when we don’t fully understand the patte
 ## Structure of a Neural Network
 Here's the basic anatomy of a neural network:
 
+
 Each layer is just a bunch of neurons working together. The more hidden layers, the "deeper" the network. Hence: **Deep Learning.**
 
 ---
@@ -120,7 +115,3 @@ A neural network is a **mathematical model** — inspired by the brain, but way 
 | ML      | Letting machines learn from data |
 | DL      | Using multi-layered neural networks to learn complex stuff |
 | Neural Network | A network of artificial neurons that learns from data |
-"""
-
-# Wrap the markdown in a Panel Row
-panel_layout = pn.Row(pn.pane.Markdown(md_text, width=800)).servable()
